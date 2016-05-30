@@ -78,30 +78,24 @@ body {
 
 /* End Font Colors */
 
+header nav#top-nav ul {
+    list-style-type: none;
 
-/* Top Nav */
-
-/* nav .left {
-    float: left;
-} */
-nav .right {
-    float: right;
 }
 
-header nav#top-nav ul{
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
+header nav#top-nav ul.right {
+    float: right;
 
 }
 
 header nav#top-nav ul.right li, header nav#top-nav ul.left li {
-    float: left !important;
+    display: inline-block; 
     padding: 10px 5px;
 }
 
+
 header nav#top-nav ul.right li {
-    float: right;
+    
 }
 
 /* Logo Container */
