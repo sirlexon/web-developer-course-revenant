@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: blue;
+}
+
+body {
+    font-size: 14px color: red;
+    background-color: white;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.container {
+    width: 1000px;
+}
+
+
+/* Background Colors */
+
+.bg-color--blue {
+    background-color: #3bbdfb;
+}
+
+.bg-color--white {
+    background-color: #fff;
+}
+
+.bg-color--ghost-white {
+    background-color: #F8F8FA;
+}
+
+.bg-color--silver {
+    background-color: #959595;
+}
+
+.bg-color--silver-med {
+    background-color: #454545;
+}
+
+.bg-color--black {
+    background-color: #2e2828;
+}
+
+
+/* End Background Colors */
+
+
+/* Font Colors */
+
+.color--blue {
+    color: #3bbdfb;
+}
+
+.color--white {
+    color: #fff;
+}
+
+.color--ghost-white {
+    color: #F8F8FA;
+}
+
+.color--silver {
+    color: #959595;
+}
+
+.color--silver-med {
+    color: #454545;
+}
+
+.color--b lack {
+    color: #2e2828;
+}
+
+
+/* End Font Colors */
+
+
+/* Top Nav */
+
+/* nav .left {
+    float: left;
+} */
+nav .right {
+    float: right;
+}
+#top-nav {
+	list-style-type:none ;
+
+}
+
+/* Logo Container */
+
+section#logo-container {
+    width: 269px;
+    height: 95px;
+    background: url("logo.jpg") top left no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-indent: -9999px;
+}
+
+
+/* Bottom Nav */
