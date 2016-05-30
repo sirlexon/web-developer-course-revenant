@@ -5,7 +5,8 @@
 }
 
 body {
-    font-size: 14px color: red;
+    font-size: 14px;
+    color: red;
     background-color: white;
 }
 
@@ -86,14 +87,26 @@ body {
 nav .right {
     float: right;
 }
-#top-nav {
-	list-style-type:none ;
 
+header nav#top-nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+header nav#top-nav ul.right li, header nav#top-nav ul.left li {
+    float: left !important;
+    padding: 10px 5px;
+}
+
+header nav#top-nav ul.right li {
+    float: right;
 }
 
 /* Logo Container */
 
-section#logo-container {
+/*section#logo-container {
     width: 269px;
     height: 95px;
     background: url("logo.jpg") top left no-repeat;
@@ -102,6 +115,11 @@ section#logo-container {
     padding-top: 30px;
     padding-bottom: 20px;
     text-indent: -9999px;
+}*/
+
+section#logo-container img {
+    width: 100%;
+    height: auto;
 }
 
 
