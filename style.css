@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    color: blue;
+    color: #fff;
 }
 
 body {
     font-size: 14px;
     color: red;
-    background-color: white;
+    background-color:red;
 }
 
 .full-width {
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 1000px;
+    width: 100%;
 }
 
 
@@ -80,25 +80,36 @@ body {
 
 header nav#top-nav ul {
     list-style-type: none;
-
+    display: inline-block;
 }
 
 header nav#top-nav ul.right {
     float: right;
-
 }
 
 header nav#top-nav ul.right li, header nav#top-nav ul.left li {
-    display: inline-block; 
+    display: inline-block;
     padding: 10px 5px;
 }
 
-
-header nav#top-nav ul.right li {
-    
+header nav#bottom-nav ul li {
+    display: inline-block;
+    padding: 10px 5px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
+header nav#bottom-nav ul {
+    margin-left: 39%;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+
 /* Logo Container */
+
 
 /*section#logo-container {
     width: 269px;
@@ -111,9 +122,10 @@ header nav#top-nav ul.right li {
     text-indent: -9999px;
 }*/
 
-section#logo-container img {
+section#logo-container {
     width: 100%;
-    height: auto;
+    height: 155px;
+    
 }
 
 
